@@ -1,0 +1,147 @@
+body {
+  background-image: url("BG3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cvh1 {
+  font-size: x-large;
+  text-align: center;
+  color: aliceblue;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 300%;
+  padding-top: 0%;
+  margin-top: 0%;
+  animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#preid {
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+  animation: fadeIn 1s ease-in-out 0.5s;
+  animation-fill-mode: both;
+}
+
+#careerid,
+#projectid,
+#Educationid,
+#skillid,
+#experienceid {
+  font-size: x-large;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 300%;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#careerid {
+  background-color: #333333;
+}
+
+#projectid {
+  background-color: #6A0DAD;
+}
+
+#Educationid {
+  background-color: #2ECC40;
+}
+
+#skillid {
+  background-color: #001f3f;
+}
+
+#experienceid {
+  background-color: brown;
+}
+
+#pids {
+  font-size: 150%;
+  animation: fadeIn 1s ease-in-out 1s;
+  animation-fill-mode: both;
+}
+
+#image1 {
+  margin-left: 87%;
+  width: 115px;
+  animation: zoomIn 1s ease-in-out;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#image2 {
+  width: 30px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#pid {
+  font-size: 150%;
+  margin-left: 30px;
+  animation: fadeIn 1s ease-in-out 1.5s;
+  animation-fill-mode: both;
+}
+
+li {
+  font-size: 150%;
+  animation: fadeIn 1s ease-in-out 2s;
+  animation-fill-mode: both;
+}
